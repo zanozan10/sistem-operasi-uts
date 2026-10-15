@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - Zan Code</title>
+
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="glass-nav navbar navbar-expand-md navbar-dark sticky-top py-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Zan Code</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===== FORM PENDAFTARAN ===== -->
+    <div class="container my-5" style="max-width: 900px">
+      <div class="glass-card">
+        <h2 class="text-center mb-4">
+          <i class="fas fa-user-plus me-2" style="color: var(--primary)"></i
+          >Form Pendaftaran
+        </h2>
+
+        <form>
+          <!-- DATA PRIBADI -->
+          <h5 class="mb-3" style="color: var(--primary)">
+            <i class="fas fa-user me-2"></i>Data Pribadi
+          </h5>
+          <div class="row g-3 mb-4">
+            <div class="col-md-6">
+              <label class="form-label">Nama Depan</label>
+              <input type="text" class="form-control" required />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Nama Belakang</label>
+              <input type="text" class="form-control" required />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">E-mail</label>
+              <input type="email" class="form-control" required />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">No HP</label>
+              <input type="number" class="form-control" required />
+            </div>
+            <div class="col-12">
+              <label class="form-label">Alamat</label>
+              <input type="text" class="form-control" required />
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Agama</label>
+              <select class="form-select" required>
+                <option value="">-- Pilih --</option>
+                <option>Islam</option>
+                <option>Kristen</option>
+                <option>Katolik</option>
+                <option>Hindu</option>
+                <option>Budha</option>
+                <option>Konghucu</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Jenis Kelamin</label>
+              <select class="form-select" required>
+                <option value="">-- Pilih --</option>
+                <option>Laki-laki</option>
+                <option>Perempuan</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Pekerjaan</label>
+              <select class="form-select" required>
+                <option value="">-- Pilih --</option>
+                <option>Swasta</option>
+                <option>PNS</option>
+                <option>TNI</option>
+                <option>Polri</option>
+                <option>Dokter</option>
+                <option>Programmer</option>
+                <option>DPR</option>
+                <option>Guru</option>
+                <option>Dosen</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">NIK / No KTP</label>
+              <input type="number" class="form-control" required />
+            </div>
+          </div>
+
+          <!-- SOSIAL MEDIA -->
+          <h5 class="mb-3" style="color: var(--primary)">
+            <i class="fas fa-share-alt me-2"></i>Sosial Media
+          </h5>
+          <div class="row g-3 mb-4">
+            <div class="col-md-4">
+              <label class="form-label">Url Facebook</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Url Instagram</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Url Website</label>
+              <input type="text" class="form-control" />
+            </div>
+          </div>
+
+          <!-- DATA ORANG TUA -->
+          <h5 class="mb-3" style="color: var(--primary)">
+            <i class="fas fa-users me-2"></i>Data Orang Tua
+          </h5>
+          <div class="row g-3 mb-4">
+            <div class="col-md-6">
+              <label class="form-label">Nama Ayah</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Nama Ibu</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Alamat Ayah</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Alamat Ibu</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Pekerjaan Ayah</label>
+              <select class="form-select">
+                <option value="">-- Pilih --</option>
+                <option>Swasta</option>
+                <option>PNS</option>
+                <option>TNI</option>
+                <option>Polri</option>
+                <option>Dokter</option>
+                <option>Programmer</option>
+                <option>DPR</option>
+                <option>Guru</option>
+                <option>Dosen</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Pekerjaan Ibu</label>
+              <select class="form-select">
+                <option value="">-- Pilih --</option>
+                <option>Swasta</option>
+                <option>PNS</option>
+                <option>TNI</option>
+                <option>Polri</option>
+                <option>Dokter</option>
+                <option>Programmer</option>
+                <option>DPR</option>
+                <option>Guru</option>
+                <option>Dosen</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Penghasilan Ayah</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Penghasilan Ibu</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">No HP Ayah</label>
+              <input type="number" class="form-control" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">No HP Ibu</label>
+              <input type="number" class="form-control" />
+            </div>
+          </div>
+
+          <!-- SUBMIT -->
+          <div class="text-center mt-4">
+            <button type="submit" class="btn-primary-custom px-5">
+              <i class="fas fa-check me-2"></i>Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      <div class="small">&copy; 2024 Zan Code • Belajar Ngoding Ngabbb</div>
+    </footer>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

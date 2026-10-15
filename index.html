@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zan Code - Home</title>
+
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="glass-nav navbar navbar-expand-md navbar-dark sticky-top py-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Zan Code</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="container py-5">
+      <div class="row align-items-center g-5">
+        <!-- Teks -->
+        <div class="col-md-6 text-center text-md-start">
+          <h1
+            class="display-4 fw-bold mb-3"
+            style="text-shadow: 0 0 12px #00f5ff"
+          >
+            Zan Code
+          </h1>
+          <p class="lead mb-4">
+            Belajar budidaya kode (<em>coding</em>) dengan tutorial yang mudah
+            dipahami.
+            <em>Mostly</em> pakai Linux.
+          </p>
+          <div
+            class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-md-start"
+          >
+            <a href="gallery.html" class="btn-primary-custom">Mulai Belajar</a>
+            <a href="contact.html" class="btn-outline-custom"
+              >Join Newsletter</a
+            >
+          </div>
+        </div>
+
+        <!-- Gambar -->
+        <div class="col-md-6 text-center position-relative">
+          <img
+            src="https://storage.googleapis.com/a1aa/image/tKetZeK5CSngdUeWWpzWsrCiwDcLJncslPI2E7cFLtGJ2IRnA.jpg"
+            class="img-fluid rounded-3 shadow-lg"
+            alt="Coding illustration"
+            style="max-width: 380px"
+          />
+
+          <!-- Ikon bahasa -->
+          <div
+            class="d-flex flex-row flex-md-column gap-3 justify-content-center mt-4 mt-md-0 position-md-absolute top-0 end-0"
+          >
+            <img
+              src="https://storage.googleapis.com/a1aa/image/0ZlP3cfQFn1DE6ez7mqFKZY2kSReIopRxmjqQZHrMbe3rRiOB.jpg"
+              class="rounded-circle"
+              style="width: 48px; height: 48px"
+              alt="Telegram"
+            />
+            <img
+              src="https://storage.googleapis.com/a1aa/image/DdkhQYH7po7wExQOEjXi6zcC0FkwG3h959YIzYRxnK0vGJ6E.jpg"
+              class="rounded-circle"
+              style="width: 48px; height: 48px"
+              alt="Java"
+            />
+            <img
+              src="https://storage.googleapis.com/a1aa/image/VfkKmnoksiXfMksZaocgJAN7PIERRfwlUuIF246en0INsRiOB.jpg"
+              class="rounded-circle"
+              style="width: 48px; height: 48px"
+              alt="Python"
+            />
+            <img
+              src="https://storage.googleapis.com/a1aa/image/RBpmyRJyprbhCNR5o2SKO9mKz7ge5futJnVzlsTbw1DAbkoTA.jpg"
+              class="rounded-circle"
+              style="width: 48px; height: 48px"
+              alt="JS"
+            />
+            <img
+              src="https://storage.googleapis.com/a1aa/image/4vjCSXbueEXiAiYezbcV8goK3s33kdxe5JzLFmaRiFKC2IRnA.jpg"
+              class="rounded-circle"
+              style="width: 48px; height: 48px"
+              alt="C"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== KATEGORI ===== -->
+    <section class="container py-5">
+      <h2 class="text-center mb-5">Kategori Belajar</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="glass-card h-100 text-center">
+            <i class="fas fa-code fa-2x mb-3" style="color: var(--primary)"></i>
+            <h5>Web Development</h5>
+            <p>HTML, CSS, JavaScript, PHP, dan framework modern.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="glass-card h-100 text-center">
+            <i
+              class="fas fa-terminal fa-2x mb-3"
+              style="color: var(--primary)"
+            ></i>
+            <h5>Linux & SysAdmin</h5>
+            <p>Belajar Linux dari dasar hingga advanced.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="glass-card h-100 text-center">
+            <i
+              class="fas fa-shield-alt fa-2x mb-3"
+              style="color: var(--primary)"
+            ></i>
+            <h5>Cyber Security</h5>
+            <p>Pentesting, ethical hacking, dan keamanan jaringan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      <div class="mb-3">
+        <a href="https://facebook.com/fauzan.ennajmiey" class="social-icon"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://instagram.com/zan_ozan10" class="social-icon"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://wa.me/6285526394417" class="social-icon"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+      </div>
+      <div class="mb-2">
+        <a href="#">Tentang Kami</a>
+        <a href="#">Kebijakan Privasi</a>
+        <a href="#">Ketentuan Layanan</a>
+        <a href="contact.html">Kontak</a>
+      </div>
+      <div class="small">&copy; 2024 Zan Code • Belajar Ngoding Ngabbb</div>
+    </footer>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

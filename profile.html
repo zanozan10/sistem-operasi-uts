@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile - Zan Code</title>
+
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="glass-nav navbar navbar-expand-md navbar-dark sticky-top py-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Zan Code</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===== PROFILE CONTENT ===== -->
+    <div class="container my-5">
+      <div class="row justify-content-center g-4">
+        <!-- Kolom Kiri -->
+        <div class="col-md-4">
+          <div class="glass-card text-center">
+            <img
+              src="img/pp.jpg"
+              class="rounded-circle mb-3 border border-info"
+              alt="Profile Picture"
+              style="width: 150px; height: 150px; object-fit: cover"
+            />
+            <h3 class="fw-bold mb-1">Fauzan Khoiril Anam</h3>
+            <p class="mb-3" style="color: var(--primary)">
+              Web Developer | Content Creator
+            </p>
+
+            <ul class="list-unstyled text-start small">
+              <li class="mb-2">
+                <i
+                  class="fas fa-map-marker-alt me-2"
+                  style="color: var(--primary)"
+                ></i>
+                <span style="color: var(--text-muted)">Pekalongan</span>
+              </li>
+              <li class="mb-2">
+                <i
+                  class="fas fa-envelope me-2"
+                  style="color: var(--primary)"
+                ></i>
+                <span style="color: var(--text-muted)"
+                  >fauzanm063@gmail.com</span
+                >
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-phone me-2" style="color: var(--primary)"></i>
+                <span style="color: var(--text-muted)">+62 855-2639-4417</span>
+              </li>
+            </ul>
+
+            <hr style="border-color: var(--glass-border)" />
+
+            <h5 class="mt-4 mb-3">Skills</h5>
+            <div class="text-start small">
+              <p class="mb-1" style="color: var(--text-light)">
+                Web Based Programming
+              </p>
+              <div class="progress mb-3 skill-bar">
+                <div class="progress-bar" style="width: 95%"></div>
+              </div>
+
+              <p class="mb-1" style="color: var(--text-light)">Multimedia</p>
+              <div class="progress mb-3 skill-bar">
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+
+              <p class="mb-1" style="color: var(--text-light)">Networking</p>
+              <div class="progress mb-3 skill-bar">
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+
+              <p class="mb-1" style="color: var(--text-light)">Blog + SEO</p>
+              <div class="progress mb-3 skill-bar">
+                <div class="progress-bar" style="width: 50%"></div>
+              </div>
+
+              <p class="mb-1" style="color: var(--text-light)">Office</p>
+              <div class="progress mb-3 skill-bar">
+                <div class="progress-bar" style="width: 99%"></div>
+              </div>
+            </div>
+
+            <h5 class="mt-4 mb-2">Programming Language</h5>
+            <span
+              class="badge"
+              style="background: var(--secondary); font-size: 0.9rem"
+              >PHP</span
+            >
+          </div>
+        </div>
+
+        <!-- Kolom Kanan -->
+        <div class="col-md-7">
+          <!-- Education -->
+          <div class="glass-card mb-4">
+            <h4 class="fw-bold mb-4">
+              <i
+                class="fas fa-graduation-cap me-2"
+                style="color: var(--primary)"
+              ></i
+              >Education
+            </h4>
+            <ul class="list-unstyled mb-0">
+              <li
+                class="mb-3 pb-3"
+                style="border-bottom: 1px solid var(--glass-border)"
+              >
+                <strong>ITS NU Pekalongan</strong><br />
+                <small style="color: var(--primary)">2023 - Sekarang</small>
+              </li>
+              <li
+                class="mb-3 pb-3"
+                style="border-bottom: 1px solid var(--glass-border)"
+              >
+                <strong>MAN 1 Kota Pekalongan</strong><br />
+                <small style="color: var(--text-muted)">2020 - 2023</small>
+              </li>
+              <li
+                class="mb-3 pb-3"
+                style="border-bottom: 1px solid var(--glass-border)"
+              >
+                <strong>MTs S Hidayatul Athfal, Banyurip Alit</strong><br />
+                <small style="color: var(--text-muted)">2017 - 2020</small>
+              </li>
+              <li>
+                <strong>SD N 01 Wuluh</strong><br />
+                <small style="color: var(--text-muted)">2011 - 2017</small>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Certificate -->
+          <div class="glass-card">
+            <h4 class="fw-bold mb-4">
+              <i
+                class="fas fa-certificate me-2"
+                style="color: var(--primary)"
+              ></i
+              >Certificate
+            </h4>
+            <div
+              class="p-3 rounded"
+              style="
+                background: rgba(0, 245, 255, 0.08);
+                border-left: 3px solid var(--primary);
+              "
+            >
+              <h5 class="mb-1">OSTAMARU 5.0</h5>
+              <small style="color: var(--text-muted)"
+                >"Membangun Kolaborasi Santri HighTech di Era Society
+                5.0"</small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      <div class="mb-3">
+        <a href="https://facebook.com/fauzan.ennajmiey" class="social-icon"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://instagram.com/zan_ozan10" class="social-icon"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://wa.me/6285526394417" class="social-icon"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+      </div>
+      <div class="small">&copy; 2024 Zan Code • Belajar Ngoding Ngabbb</div>
+    </footer>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

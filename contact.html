@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Zan Code</title>
+
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="glass-nav navbar navbar-expand-md navbar-dark sticky-top py-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Zan Code</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===== HERO CONTACT ===== -->
+    <div class="container text-center mt-5 mb-5">
+      <h1 class="display-4 fw-bold mb-3" style="text-shadow: 0 0 12px #00f5ff">
+        Hello, Programmer!
+      </h1>
+      <p class="lead mb-4" style="color: var(--text-muted)">
+        "Code, Create, and Conquer the Future"
+      </p>
+      <p class="mb-0">
+        Punya pertanyaan, ide kolaborasi, atau mau ngobrol soal coding?<br />
+        Kirim pesan lewat form di bawah, atau hubungi saya langsung via sosial
+        media.
+      </p>
+    </div>
+
+    <!-- ===== KONTAK & FORM ===== -->
+    <div class="container mb-5">
+      <div class="row g-4 justify-content-center">
+        <!-- Info Kontak -->
+        <div class="col-md-4">
+          <div class="glass-card h-100">
+            <h4 class="mb-4">
+              <i
+                class="fas fa-address-card me-2"
+                style="color: var(--primary)"
+              ></i
+              >Info Kontak
+            </h4>
+
+            <div class="mb-3">
+              <i class="fas fa-envelope me-2" style="color: var(--primary)"></i>
+              <span>fauzanm063@gmail.com</span>
+            </div>
+            <div class="mb-3">
+              <i class="fas fa-phone me-2" style="color: var(--primary)"></i>
+              <span>+62 855-2639-4417</span>
+            </div>
+            <div class="mb-3">
+              <i
+                class="fas fa-map-marker-alt me-2"
+                style="color: var(--primary)"
+              ></i>
+              <span>Pekalongan, Indonesia</span>
+            </div>
+
+            <hr style="border-color: var(--glass-border)" />
+
+            <h5 class="mb-3">Sosial Media</h5>
+            <div class="d-flex gap-3">
+              <a
+                href="https://facebook.com/fauzan.ennajmiey"
+                class="social-icon"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://instagram.com/zan_ozan10" class="social-icon"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://wa.me/6285526394417" class="social-icon"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Kontak -->
+        <div class="col-md-7">
+          <div class="glass-card h-100">
+            <h4 class="mb-4">
+              <i
+                class="fas fa-paper-plane me-2"
+                style="color: var(--primary)"
+              ></i
+              >Kirim Pesan
+            </h4>
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">Nama</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Nama lengkap"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="email@contoh.com"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Subjek</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Subjek pesan"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Pesan</label>
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    placeholder="Tulis pesan Anda..."
+                    required
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn-primary-custom w-100">
+                    <i class="fas fa-paper-plane me-2"></i>Kirim Pesan
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      <div class="mb-3">
+        <a href="https://facebook.com/fauzan.ennajmiey" class="social-icon"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://instagram.com/zan_ozan10" class="social-icon"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://wa.me/6285526394417" class="social-icon"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+      </div>
+      <div class="mb-2">
+        <a href="#">Tentang Kami</a>
+        <a href="#">Kebijakan Privasi</a>
+        <a href="#">Ketentuan Layanan</a>
+        <a href="contact.html">Kontak</a>
+      </div>
+      <div class="small">&copy; 2024 Zan Code • Belajar Ngoding Ngabbb</div>
+    </footer>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
